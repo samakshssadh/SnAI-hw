@@ -1,0 +1,25 @@
+Q1 : https://my.newtonschool.co/playground/code/4ks5o139cfoh?lecture_hash=v210chxjexei
+solution :
+mkdir project-files
+cd project-files
+touch report.docx summary.docx draft.docx
+cp report.docx report_backup.docx
+
+mkdir old
+mv draft.docx old/draft.docx
+
+mv summary.docx final_summary.docx
+cp final_summary.docx old/
+rm report_backup.docx
+
+explanation:
+first created the main file and then touched all the files respectively 
+then copied the report.docx into the new file names report_backup
+then created old folder and moved draft folder into it 
+renamed summary file 
+copied the final summary file into old folder 
+deleted the report_backup file 
+
+
+
+
