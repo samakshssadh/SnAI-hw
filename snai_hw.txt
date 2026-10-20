@@ -20,6 +20,32 @@ renamed summary file
 copied the final summary file into old folder 
 deleted the report_backup file 
 
+Q2 : https://my.newtonschool.co/playground/code/jipp2htnvrww?lecture_hash=v210chxjexei
+solution:
+cat << 'EOF' > create-service
+mkdir -p service/controllers
+mkdir -p service/models
+mkdir -p service/routes
+mkdir -p service/middleware
+touch server.js
+touch README.md
+
+echo "API Service" >> service/README.md
+echo 'console.log("Server started");' >> service/server.js
+EOF
+
+chmod +x create-service
+./create-service
+
+explanation:
+used EOF to re write the code inside the create - service folder command 
+corrected the code 
+wrote inside files 
+closed the edit using EOF 
+made the folder executable 
+then ran the code 
+
+
 
 
 
