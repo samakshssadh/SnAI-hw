@@ -146,6 +146,25 @@ explanation:
 found the db_password using grep -r 
 concatinated the password into the newly created file 
 
+Q8 : https://my.newtonschool.co/playground/code/5ypni48t3pzs
+solution:
+cd api-service
+git init
+git add README.md
+git commit -m "Add documentation"
+
+git add server.js routes.js package.json
+git commit -m "Add server files"
+
+git status
+git log
+
+explanation:
+initaited git
+staged README then commited with its message
+staged the other 3 files and then commited them as well with their message 
+checked the process with status and log 
+
 
 
 
