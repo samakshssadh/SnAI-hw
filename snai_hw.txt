@@ -110,5 +110,34 @@ wrote the main line of code
 provided execution permit 
 ran the file 
 
+Q6 : https://my.newtonschool.co/playground/code/9kh4giios2j4?lecture_hash=t5qc0u6ap8tg
+solution :
+cat << 'EOF' > hello.c
+#include <stdio.h>
+int main() {
+    printf("Hello from C\n");
+    return 0;
+
+}
+EOF
+cat << 'EOF' > build.sh
+#!/bin/bash
+gcc -o hello hello.c
+EOF
+chmod +x build.sh
+
+./build.sh
+./hello
+
+explanation:
+used EOF to write inside hello.C
+wrote the code in C language
+since we also had to run another file build.sh that would contain gcc , used EOF to wrote that code inside the file 
+granted executable permits
+then ran both the files 
+
+
+
+
 
 
