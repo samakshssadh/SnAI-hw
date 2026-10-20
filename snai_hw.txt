@@ -165,6 +165,33 @@ staged README then commited with its message
 staged the other 3 files and then commited them as well with their message 
 checked the process with status and log 
 
+Q9 : https://my.newtonschool.co/playground/code/r2ui5gw5lhqt?lecture_hash=n9ynhcuvkld8
+solution: 
+mkdir -p pipeline/stages/build
+mkdir -p pipeline/stages/test/unit/integration
+mkdir -p pipeline/env/staging
+mkdir -p pipeline/env/prod
+mkdir -p pipeline/artifacts/old
+
+chmod 750 pipeline/stages
+chmod 770 pipeline/artifacts
+chmod 700 pipeline/env
+
+cd pipeline/stages/build/
+touch app.py config.json NOTES.md
+echo "Build stage initialized." > NOTES.md
+
+cd ../..
+cd artifacts/old/
+touch build.log test.log deploy.log
+chmod 640 build.log test.log deploy.log
+
+explanation:
+the first 5 lines are the codes to set up the directory tree 
+the next 3 lines are to define the permits of folder in the tree
+after navigating into the build folder, created new files and wrote content in the NOTES.md
+went back to the parent folder, navigated into old folder, created some new files and defined the permits of those files 
+
 
 
 
