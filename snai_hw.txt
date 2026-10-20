@@ -93,5 +93,22 @@ changed the permit of dataset folder along with every file inside it
 changed permit of OVERVIEW
 changed permit all sh files in bin
 
+Q5 : https://my.newtonschool.co/playground/code/mepmefz373b4?lecture_hash=t5qc0u6ap8tg
+solution :
+touch hello.py
+which python3
+echo '#!/usr/bin/env python3' > hello.py
+echo "print('Hello from Python')" >> hello.py
+chmod +x hello.py
+./hello.py
+
+explanation:
+created the file hello.py
+found the location python3 
+wrote shebang operator inside hello.py for python to run without python3
+wrote the main line of code 
+provided execution permit 
+ran the file 
+
 
 
