@@ -76,6 +76,22 @@ explanation:
 4. created new file, wrote content, defined permit
 5. changed permit , wrote , reverted permit
 
+Q4 : https://my.newtonschool.co/playground/code/3wz3wv7c89fo?lecture_hash=vifkrugjcwth
+solution :
+chmod 700 deployment/app/*.py
+
+chmod 770 deployment/datasets
+chmod 770 deployment/datasets/*.csv
+
+chmod 644 deployment/docs/OVERVIEW.md
+
+chmod 755 deployment/bin/*.sh
+
+explanation:
+changed permit of each pthon file 
+changed the permit of dataset folder along with every file inside it 
+changed permit of OVERVIEW
+changed permit all sh files in bin
 
 
 
