@@ -136,6 +136,16 @@ since we also had to run another file build.sh that would contain gcc , used EOF
 granted executable permits
 then ran both the files 
 
+Q7 : https://my.newtonschool.co/playground/code/7x83ezx6nimm
+solution :
+grep -r "DB_PASSWORD" .
+pwd
+cat EventApp/config/.env > EventApp/db_password.txt
+
+explanation:
+found the db_password using grep -r 
+concatinated the password into the newly created file 
+
 
 
 
