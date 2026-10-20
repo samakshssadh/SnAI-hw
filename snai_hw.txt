@@ -193,6 +193,23 @@ after navigating into the build folder, created new files and wrote content in t
 went back to the parent folder, navigated into old folder, created some new files and defined the permits of those files 
 
 
+Q10 : https://my.newtonschool.co/playground/code/5i36axzh7cl2?lecture_hash=mi7y4g3am46y
+solution :
+cd client-app
+git init
+echo "hello" >> index.html
+echo "hey" >> app.js
+git remote add origin https://github.com/startup/client-app.git
+git add index.html app.js
+git commit -m "Initial client files" 
+git push -u origin main
+git log 
+
+explanation:
+wrote content into index and app 
+set the git remote using the url
+staged both the files then commited with a message 
+the using git push -u origin main , pushed the files for the first time 
 
 
 
